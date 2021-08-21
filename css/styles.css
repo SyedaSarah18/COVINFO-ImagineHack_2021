@@ -1,0 +1,189 @@
+body{
+    font-family: 'Nova Cut', cursive;
+        background-color: #fff;
+    }
+
+    #complete-nav{ /* Affects complete navbar */
+        background: #000 !important;
+    }
+
+    .logo{ /* Virus image */
+        width: 70px;
+        position: relative;
+        bottom: 2px;
+        display: inline;
+        border-radius: 89px;
+        padding: 6px 5px;
+    }
+
+    .nav-brand{ /* COVINFO */
+        text-align: left!important;
+        margin-right: auto;
+        font-size: 38px;
+        color: rgb(223, 52, 52)!important;
+    }
+
+    #nav-list{
+        text-align: center;/* centers text in dropdown menu */
+    }
+
+    .nav-item a:hover{
+        /* background-color: black; */
+        opacity: 30%;
+    }
+
+    #nav-list a{/* HOME STATISTICS MYTHS */
+        color: rgb(223, 52, 52);
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #search-bar{/* I think the name is self-explanatory */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .bootstrap-overrides button{
+        background-color: rgb(223, 52, 52);
+        border: none;
+        color: #000;
+    }
+    .bootstrap-overrides button:hover{
+        background-color: black;
+        color: rgb(223, 52, 52);
+        
+    }
+    /* .bootstrap-overrides #toggler{
+        background-color: chocolate;
+    } */
+
+
+    /* banner */
+    
+    #banner{
+        color: rgb(223, 52, 52);
+        padding-top: 5%;
+        padding-bottom: 8rem;
+        height: 34rem;
+    }
+
+    .title{
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 44px;
+        
+    }
+    
+    #banner button{
+        background-color:rgb(223, 52, 52);
+        color: black;
+        border: 1px solid black;
+        border-radius: 11px;
+        padding: 5px 7px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    #banner .bannerbtn:hover{
+        background-color:#000 ;
+        color:rgb(223, 52, 52) ;
+    }
+
+      .wave{
+        position: absolute;
+          bottom: 98px;
+          /* margin-top: -15.5rem; */
+      }
+      div svg{
+          margin-right: 0px !important;
+      }
+      .bannerimg .one .two .px-2 {
+          padding-left: 9rem !important;
+      }
+      
+
+      .stats{
+        color: rgb(223, 52, 52);
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 80px;
+      }
+
+      .tiles{
+          margin-top: 100px;
+      }
+
+      .tiles span{
+            width: 300px;
+            height: 300px;
+      }
+
+      .tiles .button{
+        background-color:rgb(223, 52, 52);
+        color: black;
+        border: none;
+        border-radius: 11px;
+        padding: 5px 7px;
+        font-size: 18px;
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .tiles p{
+          margin-top: 20px;
+      }
+      .tiles .content{
+          font-size:1.2rem;
+      }
+
+      .tiles .button:hover{
+        background-color:#000 ;
+        color:rgb(223, 52, 52) ;
+        text-decoration: none;
+      }
+
+      .tiles .topic{
+          font-size: 1.7rem;
+          font-weight: 700;
+      }
+
+      .stats{
+          margin-top: 10rem;
+      }
+
+
+        /* BEGIN FOOTER */
+        footer{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            border: none!important;
+        }
+
+        #foot-er{
+            margin-top: 50px;
+            background: #000;
+            color: rgb(223, 52, 52);
+        }
+     
+        #copyr{
+            color: rgb(223, 52, 52)!important;
+            font-size: 16px;
+        }
+
+        div svg{/*icons*/
+            
+        }
+
+        #comp-name{
+            font-size: 60px;
+            margin-top: auto;
+            margin-bottom: auto!important;
+        }
+
+        .footer-content, h6{
+            font-size: 1.20em;
+        }
+
+        /* END FOOTER */
+
