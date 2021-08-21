@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>COVINFO</title>
+  </head>
+
+  <body>
+      <!-- NAVBAR -->
+      <nav id="complete-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="nav-container" class="container-fluid">
+      <!-- <img class="logo"
+            src="img/coronavirus.jpg"> -->
+      <a class="nav-brand navbar-brand" href="#">COVINFO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul id="nav-list" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Myths</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                    </li> 
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+        </ul>
+        <form id="search-bar" class="d-flex bootstrap-overrides">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR -->
+
+  <!-- Main Content -->
+  <section id="banner" style="background-color: black;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="title text-center">WELCOME TO COVINFO</p>
+          <p class="text-center" style="font-family: Arial, Helvetica, sans-serif;">Your go to website for accurate
+            covid information. A website where we separate facts from fiction.</p>
+          <div class="text-center">
+            <button class="bannerbtn">CONTACT US</button>
+          </div>
+        </div>
+        <div class="col-md-6 bannerimg">
+          <div class="one text-center">
+            <div class="two px-2 "></div>
+            <img src="./bannerimg1.jpg" alt="" class="image-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <div class="d-none d-md-block">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L40,149.3C80,171,160,213,240,240C320,267,400,277,480,250.7C560,224,640,160,720,138.7C800,117,880,139,960,154.7C1040,171,1120,181,1200,176C1280,171,1360,149,1400,138.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <!-- END OF MAIN CONTENT -->
+
+  <!----INFO---->
+  <section id="info" class="container"> 
+    <p>COVID-19 is an infectious respiratory disease that can spread easily from person to person. It’s important to
+      take precautions to protect yourself, your loved ones, and other Coloradans from the virus. Wearing a mask,
+      washing your hands, and keeping a distance of 6 feet from others are crucial to stopping the spread of COVID-19.
+      These resources are intended to help Coloradans make informed decisions as they navigate the COVID-19 pandemic.
+    </p>
+    <div class="text-center">
+      <button class="leranbtn">Learn more about COVID-19</button>
+    </div>
+  </section>
+
+  <!-- END OF INFO -->
+
+  <!-- Special Buttons -->
+  <div class="tiles row container-fluid text-center">
+    <div class="col-md-4" id="vaccine-div">
+      <section>
+        <div>
+          <span><i class="fas fa-syringe fa-5x"></i></span>
+           <p class="topic">Get Vaccinated</p>
+            <p class="content">Indians 18 years of age and older are eligible for the COVID-19 vaccine. Trust the vaccine. Above 18?</p>
+            <a href="https://www.cowin.gov.in/home" target="_blank" class="button">Find a Vaccine</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="col-md-4 " id="info-div">
+     <section>
+      <span><i class="fas fa-info fa-5x"></i></span>
+      <p class="topic">Information on COVID-19</p>
+      <p class="content">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
+      <a href="https://covid19.telangana.gov.in/about/"target="_blank"  class="button">Learn More</a>
+   </section>
+  </div>
+  <div class="col-md-4" id="mask-div">
+    <section>
+      <div>
+        <span><i class="fas fa-head-side-mask fa-5x"></i></span>
+        <p class="topic">Not Vaccinated? Wear a mask</p>
+        <p class="content">Unless you are fully vaccinated, we recommend that you wear a mask in public indoor spaces. </p>
+        <a href="https://covid19.telangana.gov.in/wp-content/uploads/2021/04/GO-82-Penalty-for-not-wearing-mask.pdf" target="_blank" class="button">Mask Guidelines</a>
+      </div>
+    </section>
+  </div>
+  <!-- END OF SPECIAL BUTTONS -->
+
+  <!-- STATISTICS -->
+  <div class="container">
+    <div class="stats text-center">
+      <p>STATISTICS</p>
+    </div>
+    <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px" style="margin-top: 49px;"></iframe>
+  </div>
+  <!-- END OF STATISTICS -->
+
+  <!-- FOOTER -->
+  
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
