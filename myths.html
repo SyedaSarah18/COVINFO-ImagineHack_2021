@@ -6,1315 +6,1464 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
     <title>Myths</title>
     <style>
         * {
-           
-                
-            body{
-            font-family: 'Nova Cut', cursive;
-            background-color: black;
-            color: rgb(223, 52, 52);
-            text-align:center;
-            }
-        } 
-        
+            font-family: 'Philosopher', sans-serif;
+            background-color: white;
+            color: black;
+            text-align: center; 
+
+        }
+        body{
+            font-family: 'Bebas Neue', cursive;
+            
+        }
+
+
+        .navbar {
+            background-color:cadetblue;
+            border-radius: 2px solid black;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            font-size: 27px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+
     </style>
-    
-<link rel="stylesheet" href="css/styles.css">
 </head>
 
 
 <body>
-    <nav id="complete-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div id="nav-container" class="container-fluid">
-          <!-- <img class="logo"
-                src="img/coronavirus.jpg"> -->
-          <a class="nav-brand navbar-brand" href="#">COVINFO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul id="nav-list" class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Statistics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/myths.html">Myths</a>
-              </li>
-              <!--<li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                        </li> 
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li> -->
+    <h1 style="font-size: 37px;"> Covinfo </h1>
+    <hr>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html" target = "blank">Home</a></li>
+                <li><a href="#">Statistics</a></li>
+                <li><a href="#">Myths</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
             </ul>
-            <form id="search-bar" class="d-flex bootstrap-overrides">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <div class = "mythss">
-
-    
-    <div class="row" data-sf-element="Row">
-        <div id="PageContent_C003_Col00" class="sf_colsIn col-md-1 empty" data-sf-element="Column 1"
-            data-placeholder-label="Column 1"></div>
-        <div id="PageContent_C003_Col01" class="sf_colsIn col-md-10" data-sf-element="Column 2"
-            data-placeholder-label="Column 2">
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C148_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
+        </nav>
+    </header>
+    <hr>
+    <div class="mythss">
 
 
-                    <div class="sf-content-block content-block">
-                        <div>
-                       
+        <div class="row" data-sf-element="Row">
+            <div id="PageContent_C003_Col00" class="sf_colsIn col-md-1 empty" data-sf-element="Column 1"
+                data-placeholder-label="Column 1"></div>
+            <div id="PageContent_C003_Col01" class="sf_colsIn col-md-10" data-sf-element="Column 2"
+                data-placeholder-label="Column 2">
+                <div class="row" data-sf-element="Row">
+                    <div id="PageContent_C148_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
+                        data-placeholder-label="Column 1">
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+
+                            </div>
+
                         </div>
 
                     </div>
-
-                </div>
-                <div id="PageContent_C148_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                    data-placeholder-label="Column 2">
+                    <div id="PageContent_C148_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
+                        data-placeholder-label="Column 2">
 
 
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/campaigns/connecting-the-world-to-combat-coronavirus/how-to-report-misinformation-online"
-                                class="link-container" aria-label="How to report misinformation" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
+                        <div class="list-view matching-height highlight-widget title-only bg-light">
+                            <div class="list-view--item highlight-widget--content matching-height--item" style="">
+                                <a href="https://www.who.int/campaigns/connecting-the-world-to-combat-coronavirus/how-to-report-misinformation-online"
+                                    class="link-container" aria-label="How to report misinformation" role="link">
+                                    <div class="info">
+                                        <div class="flex-row">
+                                            <div class="flex-col flex-col-12">
+                                            </div>
                                         </div>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row" data-sf-element="Row">
+                    <div id="PageContent_C127_Col00" class="sf_colsIn col-md-4" data-sf-element="Column 1"
+                        data-placeholder-label="Column 1">
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <ul>
+                                    <li><a data-sf-ec-immutable="" href="#5g"><strong>5G Mobile networks</strong></a>
+                                    </li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#alcohol">Alcohol</a></strong></li>
+
+                                    <li><strong><a data-sf-ec-immutable="" href="#bleach">Bleach</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#cold-weather">Cold weather,
+                                                snow</a></strong></li>
+                                    <li><strong><a
+                                                href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#dexamethasone">Dexamethasone</a></strong>
+                                    </li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#drugs">Drugs</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#garlic">Garlic</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#hand-dryers">Hand dryers</a></strong>
+                                    </li>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="PageContent_C127_Col01" class="sf_colsIn col-md-4" data-sf-element="Column 2"
+                        data-placeholder-label="Column 2">
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <p></p>
+                                <p></p>
+                                <ul>
+
+
+
+                                    <li><strong><a data-sf-ec-immutable=""
+                                                href="#chloroquine">Hydroxychloroquine</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#oxygen">Masks, CO2
+                                                intoxication</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#exercising">Masks,
+                                                exercise</a></strong>
+                                    </li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#methanol">Methanol,
+                                                ethanol</a></strong>
+                                    </li>
+                                    <li><strong><a
+                                                href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#misinformation">Misinformation</a></strong>
+                                    </li>
+                                    <li><strong><a data-sf-ec-immutable=""
+                                                href="#mosquito-bites">Mosquitoes</a></strong>
+                                    </li>
+                                </ul>
+                                <p></p>
+                                <p></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="PageContent_C127_Col02" class="sf_colsIn col-md-4" data-sf-element="Column 3"
+                        data-placeholder-label="Column 3">
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <ul>
+                                    <li><strong><a data-sf-ec-immutable="" href="#older-people">Older people, younger
+                                                people</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#vaccines">Pneumonia
+                                                vaccines</a></strong>
+                                    </li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#recovery">Recovery</a></strong></li>
+                                    <li><strong></strong><a
+                                            href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#infection"><strong>Reduce
+                                                risk of infection</strong></a></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#saline">Saline</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#shoes">Shoes</a></strong></li>
+
+                                    </li>
+
+
+                                    <li><strong><a data-sf-ec-immutable="" href="#thermal-scanners">Thermal
+                                                scanners</a></strong></li>
+                                    <li><strong><a data-sf-ec-immutable="" href="#uv">Ultra-violet (UV)
+                                                lamps</a></strong>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+
+
+                <div class="sf-content-block content-block">
+                    <div>
+                        <h2>FACT: Hand sanitizers can be used often</h2>
+                        <p>An alcohol-based sanitizer does not create antibiotic resistance. Unlike other antiseptics
+                            and
+                            antibiotics, pathogens (harmful germs) do not seem to develop resistance to alcohol-based
+                            sanitizers. </p>
+                    </div>
+                    <hr>
+                </div>
+
+
+                <div class="sf-content-block content-block">
+                    <div>
+                        <h2>FACT: Alcohol-based sanitizers are safe for everyone to use</h2>
+                        <p>Alcohols in the sanitizers have not been shown to create any relevant health issues. Little
+                            alcohol is absorbed into the skin, and most products contain an emollient to reduce skin
+                            dryness. Allergic contact dermatitis and bleaching of hand hair due to alcohol are very rare
+                            adverse effects. Accidental swallowing and intoxication have been described in rare cases.
+                        </p>
+                    </div>
+                    <hr>
+                </div>
+
+
+                <div class="sf-content-block content-block">
+                    <div>
+                        <h2>FACT: Alcohol-based sanitizers can be used in religions where alcohol is prohibited</h2>
+                        <p>Any manufactured substance developed to alleviate illness or contribute to better health is
+                            permitted by the Qur'an, including alcohol used as a medical agent.&nbsp;</p>
+                    </div>
+                    <hr>
+                </div>
+
+
+                <div class="row" data-sf-element="Row">
+                    <div id="PageContent_C156_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
+                        data-placeholder-label="Column 1">
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2>FACT: It is safer to frequently clean your hands and not wear gloves</h2>
+                                <p>Wearing gloves risks transferring germs from one surface to another and contaminating
+                                    your hands when removing them. Wearing gloves does not replace cleaning hands.
+                                    Health
+                                    workers wear gloves only for specific tasks. </p>
+                            </div>
+                            <hr>
+                        </div>
+
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2>FACT: Touching a communal bottle of alcohol-based sanitizer will not infect you</h2>
+                                <p>Once you've sanitized your hands, you have disinfected them from any germs that may
+                                    have
+                                    been on the bottle. If everyone uses sanitizer in a public place such as a
+                                    supermarket
+                                    entrance, the risk of germs on communal items will be lower and will help keep
+                                    everyone
+                                    safe. </p>
+                            </div>
+                            <hr>
+                        </div>
+
+
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2>FACT: An alcohol-based handrub is listed as a WHO essential medicine</h2>
+                                <p>Clean hands protect patients, health workers, other caregivers and everyone from
+                                    infection. Cleaning your hands is one of the key measures to prevent disease.&nbsp;
+                                </p>
+                            </div>
+                            <hr>
+                        </div>
+
+
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2>FACT: The amount of alcohol-based sanitizer you use matters</h2>
+                                <p>Apply a palmful of alcohol-based sanitizer to cover all surfaces of your hands. Rub
+                                    your
+                                    hands together using the right technique until they are dry.</p>
+                                <p>The entire procedure should last 20-30 seconds. </p>
+                            </div>
+                            <hr>
+                        </div>
+
+
+
+
+
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2 id="misinformation" name="misinformation">FACT: Clinical trials confirm that
+                                    hydroxychloroquine does not prevent illness or death from COVID-19.</h2>
+                                <p>Hydroxychloroquine or chloroquine, a common treatment for malaria and certain
+                                    autoimmune
+                                    diseases, has been studied as a preventative treatment for COVID-19. Evidence from
+                                    these
+                                    studies shows that hydroxychloroquine has little to no impact on illness,
+                                    hospitalization, or death.&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="row" data-sf-element="Row">
+                            <div id="PageContent_C210_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
+                                data-placeholder-label="Column 1">
+
+
+                            </div>
+                            <div id="PageContent_C210_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
+                                data-placeholder-label="Column 2">
+
+
+                                <div class="sf-content-block content-block">
+                                    <div>
+                                        <p><iframe src="https://www.youtube.com/embed/XJC1f7F4qtc"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen="" title="WHO's Science in 5 on COVID-19 - Ventilation"
+                                                width="560" height="225" frameborder="0">&nbsp;</iframe></p>
                                     </div>
 
                                 </div>
 
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C127_Col00" class="sf_colsIn col-md-4" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <ul>
-                                <li><a data-sf-ec-immutable="" href="#5g"><strong>5G Mobile networks</strong></a></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#alcohol">Alcohol</a></strong></li>
-                
-                                <li><strong><a data-sf-ec-immutable="" href="#bleach">Bleach</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#cold-weather">Cold weather,
-                                            snow</a></strong></li>
-                                <li><strong><a
-                                            href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#dexamethasone">Dexamethasone</a></strong>
-                                </li>
-                                <li><strong><a data-sf-ec-immutable="" href="#drugs">Drugs</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#garlic">Garlic</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#hand-dryers">Hand dryers</a></strong></li>
-                    
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div id="PageContent_C127_Col01" class="sf_colsIn col-md-4" data-sf-element="Column 2"
-                    data-placeholder-label="Column 2">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <p></p>
-                            <p></p>
-                            <ul>
-                                
-                               
-                                
-                                <li><strong><a data-sf-ec-immutable=""
-                                            href="#chloroquine">Hydroxychloroquine</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#oxygen">Masks, CO2
-                                            intoxication</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#exercising">Masks, exercise</a></strong>
-                                </li>
-                                <li><strong><a data-sf-ec-immutable="" href="#methanol">Methanol, ethanol</a></strong>
-                                </li>
-                                <li><strong><a
-                                            href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#misinformation">Misinformation</a></strong>
-                                </li>
-                                <li><strong><a data-sf-ec-immutable="" href="#mosquito-bites">Mosquitoes</a></strong>
-                                </li>
-                            </ul>
-                            <p></p>
-                            <p></p>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div id="PageContent_C127_Col02" class="sf_colsIn col-md-4" data-sf-element="Column 3"
-                    data-placeholder-label="Column 3">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <ul>
-                                <li><strong><a data-sf-ec-immutable="" href="#older-people">Older people, younger
-                                            people</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#vaccines">Pneumonia vaccines</a></strong>
-                                </li>
-                                <li><strong><a data-sf-ec-immutable="" href="#recovery">Recovery</a></strong></li>
-                                <li><strong></strong><a
-                                        href="/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#infection"><strong>Reduce
-                                            risk of infection</strong></a></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#saline">Saline</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#shoes">Shoes</a></strong></li>
-                            
-                                </li>
-                               
-        
-                                <li><strong><a data-sf-ec-immutable="" href="#thermal-scanners">Thermal
-                                            scanners</a></strong></li>
-                                <li><strong><a data-sf-ec-immutable="" href="#uv">Ultra-violet (UV) lamps</a></strong>
-                                </li>
-                                
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="sf-content-block content-block">
-                <div>
-                    <h2>FACT: Hand sanitizers can be used often</h2>
-                    <p>An alcohol-based sanitizer does not create antibiotic resistance. Unlike other antiseptics and
-                        antibiotics, pathogens (harmful germs) do not seem to develop resistance to alcohol-based
-                        sanitizers. </p>
-                </div>
-
-            </div>
-
-
-            <div class="sf-content-block content-block">
-                <div>
-                    <h2>FACT: Alcohol-based sanitizers are safe for everyone to use</h2>
-                    <p>Alcohols in the sanitizers have not been shown to create any relevant health issues. Little
-                        alcohol is absorbed into the skin, and most products contain an emollient to reduce skin
-                        dryness. Allergic contact dermatitis and bleaching of hand hair due to alcohol are very rare
-                        adverse effects. Accidental swallowing and intoxication have been described in rare cases. </p>
-                </div>
-
-            </div>
-
-
-            <div class="sf-content-block content-block">
-                <div>
-                    <h2>FACT: Alcohol-based sanitizers can be used in religions where alcohol is prohibited</h2>
-                    <p>Any manufactured substance developed to alleviate illness or contribute to better health is
-                        permitted by the Qur'an, including alcohol used as a medical agent.&nbsp;</p>
-                </div>
-
-            </div>
-
-
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C156_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2>FACT: It is safer to frequently clean your hands and not wear gloves</h2>
-                            <p>Wearing gloves risks transferring germs from one surface to another and contaminating
-                                your hands when removing them. Wearing gloves does not replace cleaning hands. Health
-                                workers wear gloves only for specific tasks. </p>
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2>FACT: Touching a communal bottle of alcohol-based sanitizer will not infect you</h2>
-                            <p>Once you've sanitized your hands, you have disinfected them from any germs that may have
-                                been on the bottle. If everyone uses sanitizer in a public place such as a supermarket
-                                entrance, the risk of germs on communal items will be lower and will help keep everyone
-                                safe. </p>
-                        </div>
-
-                    </div>
-
-
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2>FACT: An alcohol-based handrub is listed as a WHO essential medicine</h2>
-                            <p>Clean hands protect patients, health workers, other caregivers and everyone from
-                                infection. Cleaning your hands is one of the key measures to prevent disease.&nbsp;</p>
-                        </div>
-
-                    </div>
-
-
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2>FACT: The amount of alcohol-based sanitizer you use matters</h2>
-                            <p>Apply a palmful of alcohol-based sanitizer to cover all surfaces of your hands. Rub your
-                                hands together using the right technique until they are dry.</p>
-                            <p>The entire procedure should last 20-30 seconds. </p>
-                        </div>
-
-                    </div>
-
-
-
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="misinformation" name="misinformation">FACT: Clinical trials confirm that
-                                hydroxychloroquine does not prevent illness or death from COVID-19.</h2>
-                            <p>Hydroxychloroquine or chloroquine, a common treatment for malaria and certain autoimmune
-                                diseases, has been studied as a preventative treatment for COVID-19. Evidence from these
-                                studies shows that hydroxychloroquine has little to no impact on illness,
-                                hospitalization, or death.&nbsp;</p>
-                            <p>&nbsp;</p>
-                        </div>
-
-                    </div>
-
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C210_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-                          
-                        </div>
-                        <div id="PageContent_C210_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div>
-                                    <p><iframe src="https://www.youtube.com/embed/XJC1f7F4qtc"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen="" title="WHO's Science in 5 on COVID-19 - Ventilation"
-                                            width="560" height="225" frameborder="0">&nbsp;</iframe></p>
-                                </div>
-
                             </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="misinformation" name="misinformation">Let’s flatten the infodemic curve</h2>
-                            <p>We are all being exposed to a huge amount of COVID-19 information on a daily basis, and
-                                not all of it is reliable. Here are some tips for telling the difference and stopping
-                                the spread of misinformation.</p>
-                            <p>&nbsp;</p>
                         </div>
 
-                    </div>
 
 
-
-
-
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C157_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C158_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                            <div class="sf-content-block content-block">
-                                <div>
-                                    <h2 id="hydroxychloroquine" name="hydroxychloroquine">FACT: Studies show
-                                        hydroxychloroquine does not have clinical benefits in treating COVID-19</h2>
-                                    <p>Hydroxychloroquine or chloroquine, a treatment for malaria, lupus erythematosus,
-                                        and rheumatoid arthritis, has been under study as a possible treatment for
-                                        COVID-19. Current data shows that this drug does not reduce deaths among
-                                        hospitalised COVID-19
-                                        patients, nor help people with moderate disease.*&nbsp;The use of
-                                        hydoxychloroquine and chloroquine is accepted as generally safe for patients
-                                        with malaria and autoimmune diseases, but its use where not indicated and
-                                        without medical supervision can
-                                        cause serious side effects and should be avoided.</p>
-                                    <p>* More decisive research is needed to assess its value in patients with mild
-                                        disease or as pre- or post-exposure prophylaxis in patients exposed to COVID-19.
-                                    </p>
-                                    <p>&nbsp;</p>
-                                </div>
-
+                        <div class="sf-content-block content-block">
+                            <div>
+                                <h2 id="misinformation" name="misinformation">Let’s flatten the infodemic curve</h2>
+                                <p>We are all being exposed to a huge amount of COVID-19 information on a daily basis,
+                                    and
+                                    not all of it is reliable. Here are some tips for telling the difference and
+                                    stopping
+                                    the spread of misinformation.</p>
+                                <p>&nbsp;</p>
                             </div>
+                            <hr>
+                        </div>
 
 
-                                                        <div class="sf-content-block content-block">
-                                <div>
-                                    <h2 id="dexamethasone" name="dexamethasone">Is dexamethasone a treatment for all
-                                        COVID-19 patients?
-                                        <o:p></o:p>
-                                    </h2>
-                                    <p>Dexamethasone should be reserved for patients who need it most. It should not be
-                                        stockpiled.
-                                        <o:p></o:p>
-                                    </p>
-                                    <p>It provided no improvement for patients with mild symptoms.&nbsp;Dexamethasone is
-                                        a corticosteroid used for its anti-inflammatory and immunosuppressive
-                                        effects.&nbsp;For some COVID-19 patients on ventilators, a daily 6 mg dose of
-                                        dexamethasone for 10
-                                        days improved their health
-                                        <o:p></o:p>
-                                    </p>
+
+
+
+                        <div class="row" data-sf-element="Row">
+                            <div id="PageContent_C157_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
+                                data-placeholder-label="Column 1">
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C158_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="hydroxychloroquine" name="hydroxychloroquine">FACT: Studies show
+                                                    hydroxychloroquine does not have clinical benefits in treating
+                                                    COVID-19</h2>
+                                                <p>Hydroxychloroquine or chloroquine, a treatment for malaria, lupus
+                                                    erythematosus,
+                                                    and rheumatoid arthritis, has been under study as a possible
+                                                    treatment for
+                                                    COVID-19. Current data shows that this drug does not reduce deaths
+                                                    among
+                                                    hospitalised COVID-19
+                                                    patients, nor help people with moderate disease.*&nbsp;The use of
+                                                    hydoxychloroquine and chloroquine is accepted as generally safe for
+                                                    patients
+                                                    with malaria and autoimmune diseases, but its use where not
+                                                    indicated and
+                                                    without medical supervision can
+                                                    cause serious side effects and should be avoided.</p>
+                                                <p>* More decisive research is needed to assess its value in patients
+                                                    with mild
+                                                    disease or as pre- or post-exposure prophylaxis in patients exposed
+                                                    to COVID-19.
+                                                </p>
+                                                <p>&nbsp;</p>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="dexamethasone" name="dexamethasone">Is dexamethasone a treatment
+                                                    for all
+                                                    COVID-19 patients?
+                                                    <o:p></o:p>
+                                                </h2>
+                                                <p>Dexamethasone should be reserved for patients who need it most. It
+                                                    should not be
+                                                    stockpiled.
+                                                    <o:p></o:p>
+                                                </p>
+                                                <p>It provided no improvement for patients with mild
+                                                    symptoms.&nbsp;Dexamethasone is
+                                                    a corticosteroid used for its anti-inflammatory and
+                                                    immunosuppressive
+                                                    effects.&nbsp;For some COVID-19 patients on ventilators, a daily 6
+                                                    mg dose of
+                                                    dexamethasone for 10
+                                                    days improved their health
+                                                    <o:p></o:p>
+                                                </p>
+                                            </div>
+                                            <hr>
+                                        </div>
+
+
+
+
+
+
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="exercise" name="exercise">FACT: People should NOT wear masks
+                                                    while
+                                                    exercising&nbsp; </h2>
+                                                <o:p></o:p>
+                                                <p>People should NOT wear masks when exercising, as masks may reduce the
+                                                    ability&nbsp;to&nbsp;breathe comfortably.
+                                                    <o:p></o:p>
+                                                </p>
+                                                <p>Sweat can make the mask become wet more quickly which makes it
+                                                    difficult to
+                                                    breathe and promotes the growth of microorganisms.&nbsp;The
+                                                    important preventive
+                                                    measure during exercise is to maintain physical distance of at least
+                                                    one meter
+                                                    from others.
+                                                    <o:p></o:p>
+                                                </p>
+                                                <p>&nbsp;</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row" data-sf-element="Row">
+                                            <div id="PageContent_C140_Col00" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+                                            </div>
+                                            <div id="PageContent_C140_Col01" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                <div class="sf-content-block content-block">
+                                                    <div><iframe src="https://www.youtube.com/embed/1_AxGswGnno"
+                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            title="People should NOT wear masks while exercising"
+                                                            width="560" height="225" frameborder="0"></iframe></div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="list-view matching-height highlight-widget title-only bg-light">
+                                            <div class="list-view--item highlight-widget--content matching-height--item"
+                                                style="">
+                                                <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster---masks-and-exercise.png"
+                                                    class="link-container" aria-label="Download and share" role="link">
+                                                    <div class="info">
+                                                        <div class="flex-row">
+                                                            <div class="flex-col flex-col-12">
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
                                 </div>
 
-                            </div>
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C159_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
 
 
-                            
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="shoes" name="shoes"><strong>FACT: The likelihood of shoes
+                                                        spreading COVID-19 is very
+                                                        low</strong></h2>
+                                                <p>The likelihood of COVID-19 being spread on shoes and infecting
+                                                    individuals is very low.
+                                                    As a precautionary measure, particularly in homes where infants and
+                                                    small children crawl
+                                                    or play on floors, consider leaving your shoes at the entrance of
+                                                    your home.
+                                                    This will help prevent contact with dirt or any waste &nbsp;that
+                                                    could be carried on the
+                                                    soles of shoes.</p>
+                                                <p>&nbsp;</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row" data-sf-element="Row">
+                                            <div id="PageContent_C142_Col00" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 1" data-placeholder-label="Column 1">
 
 
 
-                            <div class="sf-content-block content-block">
-                                <div>
-                                    <h2 id="exercise" name="exercise">FACT: People should NOT wear masks while
-                                        exercising&nbsp; </h2>
-                                    <o:p></o:p>
-                                    <p>People should NOT wear masks when exercising, as masks may reduce the
-                                        ability&nbsp;to&nbsp;breathe comfortably.
-                                        <o:p></o:p>
-                                    </p>
-                                    <p>Sweat can make the mask become wet more quickly which makes it difficult to
-                                        breathe and promotes the growth of microorganisms.&nbsp;The important preventive
-                                        measure during exercise is to maintain physical distance of at least one meter
-                                        from others.
-                                        <o:p></o:p>
-                                    </p>
-                                    <p>&nbsp;</p>
+                                            </div>
+                                            <div id="PageContent_C142_Col01" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                <div class="sf-content-block content-block">
+                                                    <div><iframe src="https://www.youtube.com/embed/yLSHNV4pSwc"
+                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            title="The likelihood of shoes spreading COVID-19 is very low"
+                                                            width="560" height="225" frameborder="0"></iframe></div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="list-view matching-height highlight-widget title-only bg-light">
+                                            <div class="list-view--item highlight-widget--content matching-height--item"
+                                                style="">
+                                                <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters---shoes.png"
+                                                    class="link-container" aria-label="Download and share" role="link">
+                                                    <div class="info">
+                                                        <div class="flex-row">
+                                                            <div class="flex-col flex-col-12">
+                                                            </div>
+                                                        </div>
+
+                                                        <p class="heading text-underline"></p>
+
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
                                 </div>
 
-                            </div>
-                            <div class="row" data-sf-element="Row">
-                                <div id="PageContent_C140_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                                    data-placeholder-label="Column 1">
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C161_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
 
-                                 
 
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="oxygen" name="oxygen">FACT: The prolonged use of medical masks*
+                                                    when properly worn,
+                                                    DOES NOT cause CO2 intoxication nor oxygen deficiency</h2>
+                                                <p>The prolonged use of medical masks can be uncomfortable. However, it
+                                                    does not lead to CO2
+                                                    intoxication nor oxygen deficiency. While wearing a medical mask,
+                                                    make sure it fits
+                                                    properly and that it is tight enough to allow you to breathe
+                                                    normally. Do not
+                                                    re-use a disposable mask and always change it as soon as it gets
+                                                    damp.</p>
+                                                <p>* Medical masks (also known as surgical masks) are flat or pleated;
+                                                    they are affixed to
+                                                    the head with straps or have ear loops.</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row" data-sf-element="Row">
+                                            <div id="PageContent_C146_Col00" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            </div>
+                                            <div id="PageContent_C146_Col01" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                <div class="sf-content-block content-block">
+                                                    <div><iframe src="https://www.youtube.com/embed/l33a25lchT8"
+                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            title="Use of medical masks when properly worn DOESN'T cause CO2 intoxication nor oxygen deficiency"
+                                                            width="560" height="225" frameborder="0"></iframe></div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="list-view matching-height highlight-widget title-only bg-light">
+                                            <div class="list-view--item highlight-widget--content matching-height--item"
+                                                style="">
+                                                <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-masks"
+                                                    class="link-container" aria-label="Download and share" role="link">
+                                                    <div class="info">
+                                                        <div class="flex-row">
+                                                            <div class="flex-col flex-col-12">
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
                                 </div>
-                                <div id="PageContent_C140_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                                    data-placeholder-label="Column 2">
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C162_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
 
 
-                                    <div class="sf-content-block content-block">
-                                        <div><iframe src="https://www.youtube.com/embed/1_AxGswGnno"
-                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                title="People should NOT wear masks while exercising" width="560"
-                                                height="225" frameborder="0"></iframe></div>
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="recovery" name="recovery">FACT: Most people who get COVID-19
+                                                    recover from it</h2>
+                                                <p>Most people who get COVID-19 have mild or moderate symptoms and can
+                                                    recover thanks to
+                                                    supportive care. If you have a cough, fever and difficulty breathing
+                                                    seek medical care
+                                                    early - call your health facility by telephone first. If you have
+                                                    fever and live
+                                                    in an area with malaria or dengue seek medical care immediately.</p>
+                                            </div>
+
+                                        </div>
+
 
                                     </div>
-
                                 </div>
-                            </div>
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C163_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="alcohol" name="alcohol">FACT: Drinking alcohol does not protect
+                                                    you against COVID-19
+                                                    and can be dangerous</h2>
+                                                <p>The harmful use of alcohol increases your risk of health problems.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row" data-sf-element="Row">
+                                            <div id="PageContent_C187_Col00" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+                                            </div>
+                                            <div id="PageContent_C187_Col01" class="sf_colsIn col-md-6"
+                                                data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                <div class="sf-content-block content-block">
+                                                    <div><iframe src="https://www.youtube.com/embed/Rr6ABy2Kf_Y"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowfullscreen=""
+                                                            title="WHO's Science in 5 on COVID-19 - Mythbusters"
+                                                            width="560" height="315" frameborder="0"></iframe></div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
 
 
 
-                            <div class="list-view matching-height highlight-widget title-only bg-light">
-                                <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster---masks-and-exercise.png"
-                                        class="link-container" aria-label="Download and share" role="link">
-                                        <div class="info">
-                                            <div class="flex-row">
-                                                <div class="flex-col flex-col-12">
+                                        <div class="list-view matching-height highlight-widget title-only bg-light">
+                                            <div class="list-view--item highlight-widget--content matching-height--item"
+                                                style="">
+                                                <a href="https://www.who.int/images/default-source/health-topics/coronavirus/eng-mythbusting-ncov-(79).png?sfvrsn=86f79761_2"
+                                                    class="link-container" aria-label="Download and share" role="link">
+                                                    <div class="info">
+                                                        <div class="flex-row">
+                                                            <div class="flex-col flex-col-12">
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class="row" data-sf-element="Row">
+                                    <div id="PageContent_C164_Col00" class="sf_colsIn col-md-12"
+                                        data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                        <div class="sf-content-block content-block">
+                                            <div>
+                                                <h2 id="thermal-scanners" name="thermal-scanners">FACT: Thermal scanners
+                                                    CANNOT detect
+                                                    COVID-19</h2>
+                                                <p>Thermal scanners are effective in detecting people who have a fever
+                                                    (i.e. have a higher
+                                                    than normal body temperature). They cannot detect people who are
+                                                    infected with COVID-19.
+                                                    There are many causes of fever. Call your healthcare provider if you
+                                                    need
+                                                    assistance or seek immediate medical care if you have fever and live
+                                                    in an area with
+                                                    malaria or dengue.</p>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C165_Col00" class="sf_colsIn col-md-12 empty"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1"></div>
+                                    </div>
+
+
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C168_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="bleach" name="bleach">FACT: Spraying and introducing bleach
+                                                        or another disinfectant
+                                                        into your body WILL NOT protect you against COVID-19&nbsp;and
+                                                        can be dangerous</h2>
+                                                    <p>Do not under any circumstance spray or introduce bleach or any
+                                                        other disinfectant into
+                                                        your body. These substances can be poisonous if ingested and
+                                                        cause irritation and damage
+                                                        to your skin and eyes.<br></p>
+                                                    <p>Bleach and disinfectant should be used carefully to disinfect
+                                                        surfaces only. Remember to
+                                                        keep chlorine (bleach) and other disinfectants out of reach of
+                                                        children.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C130_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+                                                </div>
+                                                <div id="PageContent_C130_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/oRyuOLP5xUE"
+                                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                title="Coronavirus mythbusters: Spraying and introducing bleach into your body WON'T protect you"
+                                                                width="560" height="225" frameborder="0"></iframe></div>
+
+                                                    </div>
+
                                                 </div>
                                             </div>
 
-                                            
-
-                                        </div>
-
-                                    </a>
-                                </div>
-                            </div>
-
-
-
-                            
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C159_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="shoes" name="shoes"><strong>FACT: The likelihood of shoes spreading COVID-19 is very
-                                    low</strong></h2>
-                            <p>The likelihood of COVID-19 being spread on shoes and infecting individuals is very low.
-                                As a precautionary measure, particularly in homes where infants and small children crawl
-                                or play on floors, consider leaving your shoes at the entrance of your home.
-                                This will help prevent contact with dirt or any waste &nbsp;that could be carried on the
-                                soles of shoes.</p>
-                            <p>&nbsp;</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C142_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-                           
-
-                        </div>
-                        <div id="PageContent_C142_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/yLSHNV4pSwc"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        title="The likelihood of shoes spreading COVID-19 is very low" width="560"
-                                        height="225" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters---shoes.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
                                         </div>
                                     </div>
 
-                                    <p class="heading text-underline"></p>
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C161_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
 
 
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="oxygen" name="oxygen">FACT: The prolonged use of medical masks* when properly worn,
-                                DOES NOT cause CO2 intoxication nor oxygen deficiency</h2>
-                            <p>The prolonged use of medical masks can be uncomfortable. However, it does not lead to CO2
-                                intoxication nor oxygen deficiency. While wearing a medical mask, make sure it fits
-                                properly and that it is tight enough to allow you to breathe normally. Do not
-                                re-use a disposable mask and always change it as soon as it gets damp.</p>
-                            <p>* Medical masks (also known as surgical masks) are flat or pleated; they are affixed to
-                                the head with straps or have ear loops.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C146_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-                          
-                        </div>
-                        <div id="PageContent_C146_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/l33a25lchT8"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        title="Use of medical masks when properly worn DOESN'T cause CO2 intoxication nor oxygen deficiency"
-                                        width="560" height="225" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
+                                    <div class="list-view matching-height highlight-widget title-only bg-light">
+                                        <div class="list-view--item highlight-widget--content matching-height--item"
+                                            style="">
+                                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/28.tmb-1920v.png"
+                                                class="link-container" aria-label="Download and share" role="link">
+                                                <div class="info">
+                                                    <div class="flex-row">
+                                                        <div class="flex-col flex-col-12">
+                                                        </div>
+                                                    </div>
 
 
 
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-masks"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
+                                                </div>
+
+                                            </a>
                                         </div>
+                                        <hr>
                                     </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C169_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="methanol" name="methanol">FACT: Drinking methanol, ethanol
+                                                        or bleach DOES NOT
+                                                        prevent or cure COVID-19 and can be extremely dangerous</h2>
+                                                    <p>Methanol, ethanol, and bleach are poisons. Drinking them can lead
+                                                        to disability and
+                                                        death. Methanol, ethanol, and bleach are sometimes used in
+                                                        cleaning products to kill the
+                                                        virus on surfaces – however you should never drink them. They
+                                                        will not kill
+                                                        the virus in your body and they will harm your internal organs.
+                                                    </p>
+                                                    <p>To protect yourself against COVID-19, disinfect objects and
+                                                        surfaces, especially the ones
+                                                        you touch regularly. You can use diluted bleach or alcohol for
+                                                        that. Make sure you clean
+                                                        your hands frequently and thoroughly and avoid touching your
+                                                        eyes, mouth
+                                                        and nose.</p>
+                                                </div>
 
-                                    
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C162_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="recovery" name="recovery">FACT: Most people who get COVID-19 recover from it</h2>
-                            <p>Most people who get COVID-19 have mild or moderate symptoms and can recover thanks to
-                                supportive care. If you have a cough, fever and difficulty breathing seek medical care
-                                early - call your health facility by telephone first. If you have fever and live
-                                in an area with malaria or dengue seek medical care immediately.</p>
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C163_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="alcohol" name="alcohol">FACT: Drinking alcohol does not protect you against COVID-19
-                                and can be dangerous</h2>
-                            <p>The harmful use of alcohol increases your risk of health problems.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C187_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-                        </div>
-                        <div id="PageContent_C187_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/Rr6ABy2Kf_Y"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen="" title="WHO's Science in 5 on COVID-19 - Mythbusters"
-                                        width="560" height="315" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/eng-mythbusting-ncov-(79).png?sfvrsn=86f79761_2"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C164_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="thermal-scanners" name="thermal-scanners">FACT: Thermal scanners CANNOT detect
-                                COVID-19</h2>
-                            <p>Thermal scanners are effective in detecting people who have a fever (i.e. have a higher
-                                than normal body temperature). They cannot detect people who are infected with COVID-19.
-                                There are many causes of fever. Call your healthcare provider if you need
-                                assistance or seek immediate medical care if you have fever and live in an area with
-                                malaria or dengue.</p>
-                        </div>
-
-                    </div>
-
-
-                                </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C165_Col00" class="sf_colsIn col-md-12 empty" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1"></div>
-            </div>
-            
-            
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C168_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="bleach" name="bleach">FACT: Spraying and introducing bleach or another disinfectant
-                                into your body WILL NOT protect you against COVID-19&nbsp;and can be dangerous</h2>
-                            <p>Do not under any circumstance spray or introduce bleach or any other disinfectant into
-                                your body. These substances can be poisonous if ingested and cause irritation and damage
-                                to your skin and eyes.<br></p>
-                            <p>Bleach and disinfectant should be used carefully to disinfect surfaces only. Remember to
-                                keep chlorine (bleach) and other disinfectants out of reach of children.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C130_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-                        </div>
-                        <div id="PageContent_C130_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/oRyuOLP5xUE"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        title="Coronavirus mythbusters: Spraying and introducing bleach into your body WON'T protect you"
-                                        width="560" height="225" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="list-view matching-height highlight-widget title-only bg-light">
-                <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/28.tmb-1920v.png"
-                        class="link-container" aria-label="Download and share" role="link">
-                        <div class="info">
-                            <div class="flex-row">
-                                <div class="flex-col flex-col-12">
-                                </div>
-                            </div>
-
-                          
-
-                        </div>
-
-                    </a>
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C169_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="methanol" name="methanol">FACT: Drinking methanol, ethanol or bleach DOES NOT
-                                prevent or cure COVID-19 and can be extremely dangerous</h2>
-                            <p>Methanol, ethanol, and bleach are poisons. Drinking them can lead to disability and
-                                death. Methanol, ethanol, and bleach are sometimes used in cleaning products to kill the
-                                virus on surfaces – however you should never drink them. They will not kill
-                                the virus in your body and they will harm your internal organs.</p>
-                            <p>To protect yourself against COVID-19, disinfect objects and surfaces, especially the ones
-                                you touch regularly. You can use diluted bleach or alcohol for that. Make sure you clean
-                                your hands frequently and thoroughly and avoid touching your eyes, mouth
-                                and nose.</p>
-                        </div>
-
-                    </div>
-
-
-
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C170_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="5g" name="5g">FACT: 5G mobile networks DO NOT spread COVID-19</h2>
-                            <p>Viruses cannot travel on radio waves/mobile networks.&nbsp;<span
-                                    style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">COVID-19
-                                    is spreading in many countries that do not have 5G mobile networks. </span></p>
-                            <p><span
-                                    style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">COVID-19
-                                    is spread through&nbsp;</span>respiratory<span
-                                    style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">
-                                    droplets when an infected person coughs, sneezes or speaks. People can also be
-                                    infected by touching a contaminated surface and then their eyes, mouth or
-                                    nose.&nbsp;</span></p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C132_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-                        </div>
-                        <div id="PageContent_C132_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/oDE8_4UTuRM"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        title="Coronavirus mythbusters: 5G mobile networks DO NOT spread COVID-19"
-                                        width="560" height="225" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/eng-mythbusting-ncov-(15).tmb-1920v.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                    <
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            
-            
-            
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C176_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="cold-weather" name="cold-weather">FACT: Cold weather and snow CANNOT kill the
-                                COVID-19 virus</h2>
-                            <p>There is no reason to believe that cold weather can kill the new coronavirus or other
-                                diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of
-                                the external temperature or weather. The most effective way to protect
-                                yourself against the new coronavirus is by frequently cleaning your hands with
-                                alcohol-based hand rub or washing them with soap and water.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C196_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                           
-
-                        </div>
-                        <div id="PageContent_C196_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/Iy1xeIVeRwY"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen=""
-                                        title="WHO's Science in 5 on COVID-19 - Myth busters, episode 3" width="560"
-                                        height="315" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C177_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="bath" name="bath">FACT: Taking a hot bath does not prevent COVID-19</h2>
-                            <p>Taking a hot bath will not prevent you from catching COVID-19. Your normal body
-                                temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or
-                                shower. Actually, taking a hot bath with extremely hot water can be harmful,
-                                as it can burn you. The best way to protect yourself against COVID-19 is by frequently
-                                cleaning your hands. By doing this you eliminate viruses that may be on your hands and
-                                avoid infection that could occur by then touching your eyes, mouth, and nose.</p>
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C178_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="mosquito-bites" name="mosquito-bites">The COVID-19 virus CANNOT be spread through
-                                mosquito bites</h2>
-                            <p>To date there has been no information nor evidence to suggest that the new coronavirus
-                                could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which
-                                spreads primarily through droplets generated when an infected person coughs or
-                                sneezes, or through droplets of saliva or discharge from the nose. To protect yourself,
-                                clean your hands frequently with an alcohol-based hand rub or wash them with soap and
-                                water. Also, avoid close contact with anyone who is coughing and sneezing.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C198_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                           
-
-                        </div>
-                        <div id="PageContent_C198_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/Iy1xeIVeRwY"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen="" title="WHO's Science in 5 on COVID-19 - Myth busters"
-                                        width="560" height="315" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-mosquito-bite.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                   
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C179_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="hand-dryers" name="hand-dryers">FACT: Hand dryers are NOT effective in killing the
-                                COVID-19 virus</h2>
-                            <p>Hand dryers are not effective in killing the COVID-19 virus. To protect yourself,
-                                frequently clean your hands with an alcohol-based hand rub or wash them with soap and
-                                water. Once your hands are cleaned, you should dry them thoroughly by using paper towels
-                                or a warm air dryer.</p>
-                        </div>
-
-                    </div>
-
-
-
-                    
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C180_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="uv" name="uv">FACT: Ultra-violet (UV) lamps should NOT be used to disinfect hands or
-                                other areas of your skin</h2>
-                            <p>UV radiation can cause skin irritation and damage your eyes.<br></p>
-                            <p>Cleaning your hands with alcohol-based hand rub or washing your hands with soap and water
-                                are the most effective ways to remove the virus.</p>
-                            <p>&nbsp;</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C135_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                        </div>
-                        <div id="PageContent_C135_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/2xaM_BFlg8Q"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        title="Coronavirus mythbusters: Ultra-violet (UV) lamps and COVID-19"
-                                        width="560" height="225" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb---uv-light-edited.png?sfvrsn=14c7467d_2"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C181_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="vaccines" name="vaccines">FACT: Vaccines against pneumonia DO NOT protect against
-                                the COVID-19 virus</h2>
-                            <p>Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B
-                                (Hib) vaccine, do not provide protection against the new coronavirus.</p>
-                            <p>The virus is so new and different that it needs its own vaccine. Researchers are trying
-                                to develop a vaccine against COVID-19, and WHO is supporting their efforts.</p>
-                            <p>Although these vaccines are not effective against COVID-19, vaccination against
-                                respiratory illnesses is highly recommended to protect your health.</p>
-                        </div>
-
-                    </div>
-
-
-
-                 
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C182_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="saline" name="saline">FACT: Rinsing your nose with saline does NOT prevent COVID-19
-                            </h2>
-                            <p>There is no evidence that regularly rinsing the nose with saline has protected people
-                                from infection with the new coronavirus.&nbsp;</p>
-                            <p>There is some limited evidence that regularly rinsing the nose with saline can help
-                                people recover more quickly from the common cold. However, regularly rinsing the nose
-                                has not been shown to prevent respiratory infections.</p>
-                        </div>
-
-                    </div>
-
-
-
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C183_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="garlic" name="garlic">FACT: Eating garlic does NOT prevent COVID-19</h2>
-                            <p>Garlic is a healthy food that may have some antimicrobial properties. However, there is
-                                no evidence from the current outbreak that eating garlic has protected people from the
-                                new coronavirus.</p>
-                        </div>
-
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C192_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                            
-                        </div>
-                        <div id="PageContent_C192_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div><iframe src="https://www.youtube.com/embed/Rr6ABy2Kf_Y"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen="" title="WHO's Science in 5 on COVID-19 - Myth busters"
-                                        width="560" height="315" frameborder="0"></iframe></div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/19.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                   
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C184_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1">
-
-
-                    <div class="sf-content-block content-block">
-                        <div>
-                            <h2 id="older-people" name="older-people">FACT: People of all ages can be infected by the
-                                COVID-19 virus</h2>
-                            <p>Older people and younger people can be infected by the COVID-19 virus. Older people, and
-                                people with pre-existing medical conditions such as asthma, diabetes, and heart disease
-                                appear to be more vulnerable to becoming severely ill with the virus.&nbsp;</p>
-                            <p>WHO advises people of all ages to take steps to protect themselves from the virus, for
-                                example by following good hand hygiene and good respiratory hygiene. </p>
-                        </div>
-
-                    </div>
-
-
-
-                
-                </div>
-            </div>
-            
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                   
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C205_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                            <div class="sf-content-block content-block">
-                                <div>
-                                    <h2 data-sf-tooltip="input-title" role="input" sftextdirection=""
-                                        aria-label="Type page name" data-placeholder="Type page name">Science in 5:
-                                        Antibiotics &amp; COVID-19</h2>
-                                    <p>Why are experts concerned about COVID-19 and antibiotics? And what can you do
-                                        about it? Learn about antibiotics and COVID-19 from WHO’s Dr Hanan Balkhy in
-                                        Science in 5</p>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row" data-sf-element="Row">
-                        <div id="PageContent_C204_Col00" class="sf_colsIn col-md-6" data-sf-element="Column 1"
-                            data-placeholder-label="Column 1">
-
-
-                            
-
-                        </div>
-                        <div id="PageContent_C204_Col01" class="sf_colsIn col-md-6" data-sf-element="Column 2"
-                            data-placeholder-label="Column 2">
-
-
-                            <div class="sf-content-block content-block">
-                                <div>
-                                    <div data-sf-ec-immutable=""
-                                        style="width:450px;height:315px;position:relative;z-index:40;"
-                                        class="sf-immutable-selected" contenteditable="false">
-                                        <div data-sf-disable-link-event="">
-                                            <div>
-                                                <div
-                                                    sf-youtube-url="https://www.youtube.com/watch?v=lFpLIDQcdyQ&amp;feature=emb_logo">
-                                                    <iframe allowfullscreen="1"
-                                                        src="https://www.youtube.com/embed/lFpLIDQcdyQ?v=lFpLIDQcdyQ&amp;feature=emb_logo&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fweb-prod.who.int&amp;widgetid=4"
-                                                        title="WHO’s Science in 5 on COVID-19 - Antibiotics &amp; COVID-19"
-                                                        width="450" height="315" frameborder="0"></iframe></div>
                                             </div>
+                                            <hr>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C170_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
 
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="5g" name="5g">FACT: 5G mobile networks DO NOT spread
+                                                        COVID-19</h2>
+                                                    <p>Viruses cannot travel on radio waves/mobile networks.&nbsp;<span
+                                                            style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">COVID-19
+                                                            is spreading in many countries that do not have 5G mobile
+                                                            networks. </span></p>
+                                                    <p><span
+                                                            style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">COVID-19
+                                                            is spread through&nbsp;</span>respiratory<span
+                                                            style="background-color:transparent;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;">
+                                                            droplets when an infected person coughs, sneezes or speaks.
+                                                            People can also be
+                                                            infected by touching a contaminated surface and then their
+                                                            eyes, mouth or
+                                                            nose.&nbsp;</span></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C132_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+                                                </div>
+                                                <div id="PageContent_C132_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/oDE8_4UTuRM"
+                                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                title="Coronavirus mythbusters: 5G mobile networks DO NOT spread COVID-19"
+                                                                width="560" height="225" frameborder="0"></iframe></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="list-view matching-height highlight-widget title-only bg-light">
+                                                <div class="list-view--item highlight-widget--content matching-height--item"
+                                                    style="">
+                                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/eng-mythbusting-ncov-(15).tmb-1920v.png"
+                                                        class="link-container" aria-label="Download and share"
+                                                        role="link">
+                                                        <div class="info">
+                                                            <div class="flex-row">
+                                                                <div class="flex-col flex-col-12">
+                                                                </div>
+                                                            </div>
+
+                                                            </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C176_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="cold-weather" name="cold-weather">FACT: Cold weather and
+                                                        snow CANNOT kill the
+                                                        COVID-19 virus</h2>
+                                                    <p>There is no reason to believe that cold weather can kill the new
+                                                        coronavirus or other
+                                                        diseases. The normal human body temperature remains around
+                                                        36.5°C to 37°C, regardless of
+                                                        the external temperature or weather. The most effective way to
+                                                        protect
+                                                        yourself against the new coronavirus is by frequently cleaning
+                                                        your hands with
+                                                        alcohol-based hand rub or washing them with soap and water.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C196_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+
+                                                </div>
+                                                <div id="PageContent_C196_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/Iy1xeIVeRwY"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen=""
+                                                                title="WHO's Science in 5 on COVID-19 - Myth busters, episode 3"
+                                                                width="560" height="315" frameborder="0"></iframe></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="list-view matching-height highlight-widget title-only bg-light">
+                                                <div class="list-view--item highlight-widget--content matching-height--item"
+                                                    style="">
+                                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png"
+                                                        class="link-container" aria-label="Download and share"
+                                                        role="link">
+                                                        <div class="info">
+                                                            <div class="flex-row">
+                                                                <div class="flex-col flex-col-12">
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C177_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="bath" name="bath">FACT: Taking a hot bath does not prevent
+                                                        COVID-19</h2>
+                                                    <p>Taking a hot bath will not prevent you from catching COVID-19.
+                                                        Your normal body
+                                                        temperature remains around 36.5°C to 37°C, regardless of the
+                                                        temperature of your bath or
+                                                        shower. Actually, taking a hot bath with extremely hot water can
+                                                        be harmful,
+                                                        as it can burn you. The best way to protect yourself against
+                                                        COVID-19 is by frequently
+                                                        cleaning your hands. By doing this you eliminate viruses that
+                                                        may be on your hands and
+                                                        avoid infection that could occur by then touching your eyes,
+                                                        mouth, and nose.</p>
+                                                </div>
+
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C178_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="mosquito-bites" name="mosquito-bites">The COVID-19 virus
+                                                        CANNOT be spread through
+                                                        mosquito bites</h2>
+                                                    <p>To date there has been no information nor evidence to suggest
+                                                        that the new coronavirus
+                                                        could be transmitted by mosquitoes. The new coronavirus is a
+                                                        respiratory virus which
+                                                        spreads primarily through droplets generated when an infected
+                                                        person coughs or
+                                                        sneezes, or through droplets of saliva or discharge from the
+                                                        nose. To protect yourself,
+                                                        clean your hands frequently with an alcohol-based hand rub or
+                                                        wash them with soap and
+                                                        water. Also, avoid close contact with anyone who is coughing and
+                                                        sneezing.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C198_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+
+                                                </div>
+                                                <div id="PageContent_C198_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/Iy1xeIVeRwY"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen=""
+                                                                title="WHO's Science in 5 on COVID-19 - Myth busters"
+                                                                width="560" height="315" frameborder="0"></iframe></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="list-view matching-height highlight-widget title-only bg-light">
+                                                <div class="list-view--item highlight-widget--content matching-height--item"
+                                                    style="">
+                                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-mosquito-bite.png"
+                                                        class="link-container" aria-label="Download and share"
+                                                        role="link">
+                                                        <div class="info">
+                                                            <div class="flex-row">
+                                                                <div class="flex-col flex-col-12">
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C179_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="hand-dryers" name="hand-dryers">FACT: Hand dryers are NOT
+                                                        effective in killing the
+                                                        COVID-19 virus</h2>
+                                                    <p>Hand dryers are not effective in killing the COVID-19 virus. To
+                                                        protect yourself,
+                                                        frequently clean your hands with an alcohol-based hand rub or
+                                                        wash them with soap and
+                                                        water. Once your hands are cleaned, you should dry them
+                                                        thoroughly by using paper towels
+                                                        or a warm air dryer.</p>
+                                                </div>
+
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C180_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="uv" name="uv">FACT: Ultra-violet (UV) lamps should NOT be
+                                                        used to disinfect hands or
+                                                        other areas of your skin</h2>
+                                                    <p>UV radiation can cause skin irritation and damage your eyes.<br>
+                                                    </p>
+                                                    <p>Cleaning your hands with alcohol-based hand rub or washing your
+                                                        hands with soap and water
+                                                        are the most effective ways to remove the virus.</p>
+                                                    <p>&nbsp;</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C135_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                                </div>
+                                                <div id="PageContent_C135_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/2xaM_BFlg8Q"
+                                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                title="Coronavirus mythbusters: Ultra-violet (UV) lamps and COVID-19"
+                                                                width="560" height="225" frameborder="0"></iframe></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="list-view matching-height highlight-widget title-only bg-light">
+                                                <div class="list-view--item highlight-widget--content matching-height--item"
+                                                    style="">
+                                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb---uv-light-edited.png?sfvrsn=14c7467d_2"
+                                                        class="link-container" aria-label="Download and share"
+                                                        role="link">
+                                                        <div class="info">
+                                                            <div class="flex-row">
+                                                                <div class="flex-col flex-col-12">
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C181_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="vaccines" name="vaccines">FACT: Vaccines against pneumonia
+                                                        DO NOT protect against
+                                                        the COVID-19 virus</h2>
+                                                    <p>Vaccines against pneumonia, such as pneumococcal vaccine and
+                                                        Haemophilus influenza type B
+                                                        (Hib) vaccine, do not provide protection against the new
+                                                        coronavirus.</p>
+                                                    <p>The virus is so new and different that it needs its own vaccine.
+                                                        Researchers are trying
+                                                        to develop a vaccine against COVID-19, and WHO is supporting
+                                                        their efforts.</p>
+                                                    <p>Although these vaccines are not effective against COVID-19,
+                                                        vaccination against
+                                                        respiratory illnesses is highly recommended to protect your
+                                                        health.</p>
+                                                </div>
+
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C182_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="saline" name="saline">FACT: Rinsing your nose with saline
+                                                        does NOT prevent COVID-19
+                                                    </h2>
+                                                    <p>There is no evidence that regularly rinsing the nose with saline
+                                                        has protected people
+                                                        from infection with the new coronavirus.&nbsp;</p>
+                                                    <p>There is some limited evidence that regularly rinsing the nose
+                                                        with saline can help
+                                                        people recover more quickly from the common cold. However,
+                                                        regularly rinsing the nose
+                                                        has not been shown to prevent respiratory infections.</p>
+                                                </div>
+
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C183_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="garlic" name="garlic">FACT: Eating garlic does NOT prevent
+                                                        COVID-19</h2>
+                                                    <p>Garlic is a healthy food that may have some antimicrobial
+                                                        properties. However, there is
+                                                        no evidence from the current outbreak that eating garlic has
+                                                        protected people from the
+                                                        new coronavirus.</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="row" data-sf-element="Row">
+                                                <div id="PageContent_C192_Col00" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+                                                </div>
+                                                <div id="PageContent_C192_Col01" class="sf_colsIn col-md-6"
+                                                    data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                                    <div class="sf-content-block content-block">
+                                                        <div><iframe src="https://www.youtube.com/embed/Rr6ABy2Kf_Y"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen=""
+                                                                title="WHO's Science in 5 on COVID-19 - Myth busters"
+                                                                width="560" height="315" frameborder="0"></iframe></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="list-view matching-height highlight-widget title-only bg-light">
+                                                <div class="list-view--item highlight-widget--content matching-height--item"
+                                                    style="">
+                                                    <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/19.png"
+                                                        class="link-container" aria-label="Download and share"
+                                                        role="link">
+                                                        <div class="info">
+                                                            <div class="flex-row">
+                                                                <div class="flex-col flex-col-12">
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C184_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 id="older-people" name="older-people">FACT: People of all ages
+                                                        can be infected by the
+                                                        COVID-19 virus</h2>
+                                                    <p>Older people and younger people can be infected by the COVID-19
+                                                        virus. Older people, and
+                                                        people with pre-existing medical conditions such as asthma,
+                                                        diabetes, and heart disease
+                                                        appear to be more vulnerable to becoming severely ill with the
+                                                        virus.&nbsp;</p>
+                                                    <p>WHO advises people of all ages to take steps to protect
+                                                        themselves from the virus, for
+                                                        example by following good hand hygiene and good respiratory
+                                                        hygiene. </p>
+                                                </div>
+
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="list-view matching-height highlight-widget title-only bg-light">
+                                        <div class="list-view--item highlight-widget--content matching-height--item"
+                                            style="">
+                                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png"
+                                                class="link-container" aria-label="Download and share" role="link">
+                                                <div class="info">
+                                                    <div class="flex-row">
+                                                        <div class="flex-col flex-col-12">
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C205_Col00" class="sf_colsIn col-md-12"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <h2 data-sf-tooltip="input-title" role="input" sftextdirection=""
+                                                        aria-label="Type page name" data-placeholder="Type page name">
+                                                        Science in 5:
+                                                        Antibiotics &amp; COVID-19</h2>
+                                                    <p>Why are experts concerned about COVID-19 and antibiotics? And
+                                                        what can you do
+                                                        about it? Learn about antibiotics and COVID-19 from WHO’s Dr
+                                                        Hanan Balkhy in
+                                                        Science in 5</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row" data-sf-element="Row">
+                                        <div id="PageContent_C204_Col00" class="sf_colsIn col-md-6"
+                                            data-sf-element="Column 1" data-placeholder-label="Column 1">
+
+
+
+
+                                        </div>
+                                        <div id="PageContent_C204_Col01" class="sf_colsIn col-md-6"
+                                            data-sf-element="Column 2" data-placeholder-label="Column 2">
+
+
+                                            <div class="sf-content-block content-block">
+                                                <div>
+                                                    <div data-sf-ec-immutable=""
+                                                        style="width:450px;height:315px;position:relative;z-index:40;"
+                                                        class="sf-immutable-selected" contenteditable="false">
+                                                        <div data-sf-disable-link-event="">
+                                                            <div>
+                                                                <div
+                                                                    sf-youtube-url="https://www.youtube.com/watch?v=lFpLIDQcdyQ&amp;feature=emb_logo">
+                                                                    <iframe allowfullscreen="1"
+                                                                        src="https://www.youtube.com/embed/lFpLIDQcdyQ?v=lFpLIDQcdyQ&amp;feature=emb_logo&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fweb-prod.who.int&amp;widgetid=4"
+                                                                        title="WHO’s Science in 5 on COVID-19 - Antibiotics &amp; COVID-19"
+                                                                        width="450" height="315"
+                                                                        frameborder="0"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="list-view matching-height highlight-widget title-only bg-light">
+                                        <div class="list-view--item highlight-widget--content matching-height--item"
+                                            style="">
+                                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png"
+                                                class="link-container" aria-label="Download and share" role="link">
+                                                <div class="info">
+                                                    <div class="flex-row">
+                                                        <div class="flex-col flex-col-12">
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row" data-sf-element="Row">
+                                <div id="PageContent_C186_Col00" class="sf_colsIn col-md-12 empty"
+                                    data-sf-element="Column 1" data-placeholder-label="Column 1"></div>
                             </div>
 
                         </div>
+                        <div id="PageContent_C003_Col02" class="sf_colsIn col-md-1 empty" data-sf-element="Column 3"
+                            data-placeholder-label="Column 3"></div>
                     </div>
-
-
-
-                    <div class="list-view matching-height highlight-widget title-only bg-light">
-                        <div class="list-view--item highlight-widget--content matching-height--item" style="">
-                            <a href="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png"
-                                class="link-container" aria-label="Download and share" role="link">
-                                <div class="info">
-                                    <div class="flex-row">
-                                        <div class="flex-col flex-col-12">
-                                        </div>
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
-            </div>
-            <div class="row" data-sf-element="Row">
-                <div id="PageContent_C186_Col00" class="sf_colsIn col-md-12 empty" data-sf-element="Column 1"
-                    data-placeholder-label="Column 1"></div>
-            </div>
 
-        </div>
-        <div id="PageContent_C003_Col02" class="sf_colsIn col-md-1 empty" data-sf-element="Column 3"
-            data-placeholder-label="Column 3"></div>
-    </div>
-</div>
-    
 </body>
 
 </html>
